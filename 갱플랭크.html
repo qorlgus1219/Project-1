@@ -20,25 +20,38 @@
 				border-right: 1px gray solid;
 				margin: 0;
 				width: 100px;
-				padding: 20px;
+				padding: 40px;
 				}
 
 			body {
 				margin: 0;
 				}
+
+			#grid {
+				display: grid;
+				grid-template-columns: 150px 1fr;
+				}
+
+			#image {
+				padding-left: 55px;
+				padding-top: 20px;
+				}
 		</style>
 
 	</head>
-	
-	<body>
-		<h1><strong><a href="index.html" style="text-decoration: none">LOL</a></strong></h1>
-		<ul>
-			<li><a href="가렌.html">가렌</a></li>
-			<li><a href="갈리오.html">갈리오</a></li>
-			<li><a href="갱플랭크.html">갱플랭크</a></li>	
-		</ul>
-
-		<img src="갱플랭크.jpg" width="50%">
-
-	</body>
+		<body>
+			<h1><strong><a href="index.html" style="text-decoration: none">LOL</a></strong></h1>
+			<div id="grid">
+				<ul>
+					<li><a href="가렌.html">가렌</a></li>
+					<li><a href="갈리오.html">갈리오</a></li>
+					<li><a href="갱플랭크.html">갱플랭크</a></li>	
+					<li><a href="그라가스.html">그라가스</a></li>
+					<li><a href="그레이브즈.html">그레이브즈</a></li>
+				</ul>
+			<div id="image">
+				<img src="갱플랭크.png" width="20%">
+			</div>
+			</div>
+		</body>
 </html>
